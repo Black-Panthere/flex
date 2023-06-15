@@ -1,1 +1,15 @@
-
+.box{
+width: 700px;
+height: 600px;
+border: 2px solid black;
+background-color: yellow;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.child{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
